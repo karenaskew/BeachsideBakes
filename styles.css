@@ -9,13 +9,13 @@
     text-align: center;
 }
 
-.nav-list {
+.header {
+    background-color: aliceblue;
     display: flex;
+    gap: 20px;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: start;
-    list-style-type: none;
 }
-
 
 .title {
     height: 50px;
@@ -23,6 +23,10 @@
     justify-content: flex-start;
 }
 
-.header {
-    background-color: aliceblue;
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    list-style-type: none;
+    
 }
