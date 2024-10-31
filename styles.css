@@ -1,12 +1,26 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
 
 
-header {
+.centreText {
     text-align: center;
-
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
 
+.title {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
 
+.header {
+    background-color: aliceblue;
+}
