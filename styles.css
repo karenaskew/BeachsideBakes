@@ -9,11 +9,13 @@
     text-align: center;
 }
 
-.nav {
+.nav-list {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    list-style-type: none;
 }
+
 
 .title {
     height: 50px;
